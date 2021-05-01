@@ -1,0 +1,100 @@
+<!docTYPE html>
+<html>
+    <head>
+        <title>Practice</title>
+        <style>
+            .ul{
+                background-color: blueviolet;
+                color: white;
+                width: 40%;
+                border: 5px  solid green;
+            }
+            .li{
+                color: yellow;
+                display: inline-block;
+            }
+            .ol{
+                background-color: green;
+                color: hotpink;
+                width: 30%;
+                display: inline-block;
+            }
+            .ol li a{
+                color: yellow;
+            }
+            #home{
+                table-layout: fixed;
+                width: 20%;
+                border: 2px solid black;
+            }
+            .home th{
+                color: yellowgreen;
+                border: 1px solid black;
+                width: 20%;
+            }
+        </style>
+    </head>
+    <body>
+            <table style="border: 1px solid rgb(11, 37, 187); width: 40%;">
+                <tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                </tr>
+                <tr>
+                    <td>Rama</td>
+                    <td>Devi</td>
+                </tr>
+                <tr>
+                    <td>Sai</td>
+                    <td>Srinu</td>
+                </tr>
+                <tr>
+                    <td>Kumar</td>
+                    <td>Seshu</td>
+                </tr>
+            </table>
+            <iframe src="https://uxfactory.in/" name="uxfactory_frame" height=500 width=650></iframe>
+            <a href="https:indianexpress.com" target="uxfactory_frame">Indian Express</a>
+    <br>
+    <ul class=ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Servoces</li>
+        <li>Contacts
+            <ul class=li>
+                <li>4585</li>
+                <li>4585</li>
+                <li>455</li>
+            </ul>
+        </li>
+    </ul>
+    <ol class=ol>
+        <li>Name</li>
+        <li>Number
+            <ul><li><a href="home">Home</a></li></ul>
+            <ul><li><a href="service">Service</a></li></ul>
+        </li>
+    </ol>
+
+    <div id="home">
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Number</th>
+            </tr>
+            <tr>
+                <td>Krish</td>
+                <td>557452</td>
+            </tr>
+            <tr>
+                <td>Arjun</td>
+                <td>585258</td>
+            </tr>
+            <tr>
+                <td>Nakula</td>
+                <td>4855245</td>
+            </tr>
+        </table>
+    </div>
+    </body>
+</html>
