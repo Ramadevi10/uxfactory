@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+        <style>
+            .form{
+                background-color: gray;
+                width: 30%;
+            }
+            table{
+                margin-left: 60px;
+                width: 80%;
+                background-color: gray;
+            }
+            td{
+                width: 25%;
+            }
+            h2{
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="form">
+            <h2>Registration form</h2>
+            <table>
+                <tr>
+                    <td><label for="fname">First Name</label></td>
+                    <td><input type="text" id="fname" name="fname"></td>
+                </tr>
+                <tr>
+                    <td><label for="lname">Last Name</label></td>
+                    <td><input type="text" id="lname" name="lname"></td>
+                </tr>
+                <tr>
+                    <td><label for="name">Nick Name</label></td>
+                    <td><input type="text" id="name" name="name"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">e-mail</label></td>
+                    <td><input type="email" id="email" name="mail"></td>
+                </tr>
+                <tr>
+                    <td><label for="pwd">Password</label></td>
+                    <td><input type="password" id="pwd" name="pwd"></td>
+                </tr>
+                <tr>
+                    <td><label for="dob">Date of Birth</label></td>
+                    <td><input type="date" id="dob" name="dob"></td>
+                </tr>
+                <tr>
+                    <td><label>Gender</label></td>
+                    <td>
+                        <input type="radio" id="male" name="gender">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender">
+                        <label for="female">Female</label>
+                        <input type="radio" id="other" name="gender">
+                        <label for="other">Others</label>
+                    </td>  
+                </tr>
+                <tr>
+                    <td><label for="mobile">Mobile</label></td>
+                    <td><input type="number" id="mobile" name="number"></td>
+                </tr>
+                <tr>
+                    <td><label for="add">Address</label></td>
+                    <td><textarea name="address" id="add" cols="20" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="submit">
+                        <input type="reset" value="reset">
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <br><br>
+        <fieldset style="width: 10%;"> 
+            <legend>Signup</legend>
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="dob">date of birth</label><br>
+            <input type="date" id="dob" name="dob"><br>
+            <label for="mail">Email</label><br>
+            <input type="email" id="mail" name="email"><br>
+            <label for="pwd">Password</label><br>
+            <input type="password" id="pwd" name="pwd">
+        </fieldset>
+    </body>
+</html>
