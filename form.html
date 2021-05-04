@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Forms</title>
+    <style>
+        h3{
+            background-color: blueviolet;
+            width: 50%;
+            color: burlywood;
+            height: 50px;
+            text-align: center;
+            font-size: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Text,Email,Password,File,Radio,Checkbox,Submit,color</h3>
+    <form name="login" action="" method="GET">
+        <label for="firstname">Firstname</label><br>
+        <input type="text" id="firstname" name="fname"><br>
+        <label for="lastname">Lastname</label><br>
+        <input type="text" id="lastname" name="lname"><br>
+        <label for="email">Email</label><br>
+        <input type="text" id="email" name="email"><br>
+        <label for="pwd">Password</label><br>
+        <input type="password" id="pwd" name="password"><br>
+        <input type="radio" id="male" name="gender">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender">
+        <label for="female">Female</label><br>
+        <input type="radio" id="others" name="gender">
+        <label for="others">Others</label><br><br>
+        <label for="file">upload a file</label>
+        <input type="file" id="file" name="file"><br>
+        <input type="checkbox" id="car" name="car">
+        <label for="car">car</label><br>
+        <input type="checkbox" id="bike" name="bike">
+        <label for="bike">Bike</label><br>
+        <input type="checkbox" id="cycle" name="cycle">
+        <label for="cycle">cycle</label><br>
+        <label for="color">Favourite Color</label>
+        <input type="color" id="color" name="favcolor"><br><br>
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+    </form>
+    <br>
+    <h3>DataLists</h3>
+    <form>
+        <input list="mobile">
+        <datalist id="mobile">
+            <option value="Redmi">
+            <option value="vivo">
+            <option value="samsung">
+
+        </datalist>
+        <input type="submit">
+        <br>
+        <h3>Select Box</h3>
+        <label>Choose a Mobile</label>
+        <select size="2" multiple style="width: 200px;">
+            <option value="apple">Iphone</option>
+            <option value="vivo">Vivo</option>
+            <option value="Redmi" selected>Redmi</option>
+            <option value="oppo">oppo</option>
+        </select><br><br>
+        <h3>Textarea</h3>
+        <label>Write a Letters</label>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <br><br>
+        <h3>Field sets</h3>
+        <fieldset style="width: 50%;">
+            <legend>Student Info</legend>
+            <label for="fname">Firstname</label>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Lastname</label>
+            <input type="text" id="lname" name="lname"><br>
+            <label for=number">Number</label>
+            <input type="number" id="number" name="number"><br><br>
+            <button type="button">Submit</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>

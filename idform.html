@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Id Form</title>
+        <style>
+            #reg{
+                text-align: center;
+                border: 3px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="login" method="get">
+            <h2>Sign in</h2>
+            <label for="email">Email Address</label><br>
+            <input type="mail" id="email" name="email"><br>
+            <label for="pwd">password</label><br>
+            <input type="password" id="pwd" name="pwd"><br>
+            <input type="checkbox">
+            <label>Keep me signed in on this device.</label><br><br>
+            <input type="submit" value="signin">
+        </form>
+        <br>
+        <div id="reg">
+        <h2>Registration Form</h2>
+        <form action="form" method="GET">
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email Id</label><br>
+            <input type="mail" id="email" name="email"><br>
+            <label for="pwd">Create Password</label><br>
+            <input type="password" id="pwd" name="pwd"><br>
+            <label for="mobile">Mobile number</label><br>
+            <input type="number" id="mobile" name="mobile"><br>
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender">
+            <label for="male">Male</label>
+            <input type="radio" id="femail" name="gender">
+            <label for="femail">Female</label>
+            <input type="radio" id="others" name="gender">
+            <label for="others">Others</label><br>
+            <label for="date">DOB</label><br>
+            <input type="date" id="date" name="date"><br><br>
+            <label for="resume">Upload Resume</label>
+            <input type="file" id="resume" name="file">
+             <br><br>
+            <input type="submit" value="Register">
+        </form>
+    </div>
+    </body>
+</html>
