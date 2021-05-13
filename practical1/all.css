@@ -1,0 +1,53 @@
+.head{
+    background-color: aqua;
+    height: 100px;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(22, 185, 22);
+    padding: 25px; 
+}
+.left{
+    background-color: burlywood;
+    height: 500px;
+    width: 30%;
+    float: left;
+}
+.left p{
+    text-transform: capitalize;
+    padding: 10px;
+    border-bottom: 3px solid blue;
+    border-radius: 5px;
+}
+.body{
+     background-color: darkcyan;
+     height: 500px;
+     width: 50%;
+     float: left;
+}
+.form{
+    font-size: 15px;
+    font-family: Verdana;
+    text-align: center;
+}
+ h2{
+    border-bottom: 5px solid hotpink;
+    margin: 40px 30% 30px 30%;
+    padding-bottom: 10px;
+}
+.right{
+    background-color: darkorange;
+    height: 500px;
+    width: 20%;
+    float: left;
+}
+a{
+    color: brown;
+}
+.foot{
+    background-color: darkorchid;
+    height: 100px;
+    float: left;
+    width: 100%;
+}
