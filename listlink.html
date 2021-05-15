@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         a:link {
+          color: green;
+          /* background-color: yellow; */
+          text-decoration: none;
+          font-size: 20px;
+        }
+
+        /* visited link */
+         a:visited {
+          color: hotpink;
+          /* background-color:chartreuse; */
+          text-decoration: none;
+        } 
+
+        /* mouse over link */
+        a:hover {
+          color: blue;
+          /* background-color:darkcyan; */
+          text-decoration: underline;
+        } 
+      .ullist{
+        list-style-type: square;
+        color: cornflowerblue;
+      }
+      .ullist1{
+        list-style-type: upper-latin;
+      }
+      .main {
+  list-style-position: outside;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.base {
+  list-style-position: inherit;
+  font-family: verdana;
+  text-shadow: 1px 2px blueviolet;
+}
+.aa {
+  padding: 5px;
+  margin-left: 35px;
+  color: deeppink;
+}
+
+.bb{
+  margin: 5px;
+  color: yellowgreen;
+}
+    </style>
+</head>
+<body>
+  <!-- css Links -->
+    <a href="#">home</a>
+    <a href="#">service</a>
+    <a href="#">main</a>
+    <a href="https://uxfactory.in">uxfactory</a>
+    <a href="https://google.com">google</a>
+    <!-- css lists -->
+    <ul class="ullist">
+      <li>Name</li>
+      <li>Place</li>
+      <li>Thing</li>
+    </ul>
+    <ul class="ullist1">
+      <li>Name</li>
+      <li>Place</li>
+      <li>Thing</li>
+    </ul>
+  <br><br>
+  <h1>The list-style-position Property</h1>
+
+<h2>list-style-position: outside (default):</h2>
+<ul class="main">
+  <li>Coffee - A brewed drink prepared from roasted coffee beans, which are the seeds of berries from the Coffea plant</li>
+  <li>Tea - An aromatic beverage commonly prepared by pouring hot or boiling water over cured leaves of the Camellia sinensis, an evergreen shrub (bush) native to Asia</li>
+  <li>Coca Cola - A carbonated soft drink produced by The Coca-Cola Company. The drink's name refers to two of its original ingredients, which were kola nuts (a source of caffeine) and coca leaves</li>
+</ul>
+
+<h2>list-style-position: inside:</h2>
+<ul class="base">
+  <li>Coffee - A brewed drink prepared from roasted coffee beans, which are the seeds of berries from the Coffea plant</li>
+  <li>Tea - An aromatic beverage commonly prepared by pouring hot or boiling water over cured leaves of the Camellia sinensis, an evergreen shrub (bush) native to Asia</li>
+  <li>Coca Cola - A carbonated soft drink produced by The Coca-Cola Company. The drink's name refers to two of its original ingredients, which were kola nuts (a source of caffeine) and coca leaves</li>
+</ul>
+<br><br><br>
+<h1>Styling Lists With Colors:</h1>
+
+<ol class=aa>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Coca Cola</li>
+</ol>
+
+<ul class=bb>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Coca Cola</li>
+</ul>
+<br><br><br>
+<!-- css with lists in the link -->
+<ul>
+  <li>
+    <a href="https://www.w3schools.com" target="_blank">Visit W3Schools.com!</a>
+    <li>
+      <a href="https://amazon.in" target="_blank">Amazon</a>
+    </li>
+  </li>
+</ul>
+</body>
+</html>

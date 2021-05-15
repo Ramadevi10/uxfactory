@@ -1,0 +1,11 @@
+.table1,th ,td{
+    border: 2px  solid black;
+}
+.table1,th,td{
+    border-collapse: collapse;
+    width: 50%;
+    text-align: left;
+}
+/* .table2,th{
+    background: darkcyan;
+} */
