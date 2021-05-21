@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Css Media quries</title>
+        <style>
+            /* Extra small devices (phones, 600px and down)*/
+        @media only screen and (max-width: 600px) {
+            .column {
+                background-color: red;
+                color: yellow;
+                width: 70%;
+                height: 100px;
+            }
+            body{
+                background-color: cyan;
+            }
+        }
+
+        /* Small devices (portrait tablets and large phones, 600px and up)*/
+        @media only screen and (min-width: 600px) {
+            .column {
+                background-color: yellow;
+                color: chartreuse;
+                width: 70%;
+                height: 100px;
+            }
+            body{
+                background-color: darkmagenta;
+            }
+        }
+
+     
+/* Medium devices (landscape tablets, 768px and up) */
+        @media only screen and (min-width: 768px) {
+            .column {
+                background-color: green;
+                color: darkgoldenrod;
+                width: 70%;
+                height: 100px;
+            }
+            body{
+                background-color: hotpink;
+            }
+        }
+
+        /* Large devices (laptops, desktops, 992px and up) */
+        @media only screen and (min-width: 992px) {
+            .column {
+                background-color: blue;
+                color: white;
+                width: 70%;
+                height: 100px;
+            }
+            body{
+                background-color: lawngreen;
+            }
+        }
+ /* Extra large devices (large laptops and desktops, 1200px and up)*/
+        @media only screen and (min-width: 1200px) {
+            .column {
+                background-color: brown;
+                color: cadetblue;
+                width: 70%;
+                height: 100px;
+            }
+            body{
+                background-color: yellow;
+            }
+        }
+        </style>
+    </head>
+    <body>
+        <div class="row">
+            <div class="column">
+                <h2>Fisrt column</h2>
+                <p>This is a pararaph of column1</p>
+            </div>
+            <div class="column">
+                <h2>Second column</h2>
+                <p>This is a pararaph of column2</p>
+            </div>
+            <div class="column">
+                <h2>Third column</h2>
+                <p>This is a pararaph of column3</p>
+            </div>
+            <div class="column">
+                <h2>Fourth column</h2>
+                <p>This is a pararaph of column4</p>
+            </div>
+        </div>
+    </body>
+</html>
