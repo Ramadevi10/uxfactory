@@ -5,10 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Webpage task</title>
     <style>
-        body{
-            background-color: rgb(168, 166, 166);
+              
+               @media only screen and (max-width: 600px) {
+            .phone{
+                float: left;
+                width: 100%;
+            }
         }
-        .phone{
+        @media only screen and (min-width: 600px){
+            .phone{
+                float: left;
+                width: 48%;
+            }
+        }
+        @media only screen and (min-width: 770px){
+            .phone{
+                float: left;
+                width: 32%;
+            }
+        }
+        @media only screen and (min-width: 1200px){
+            .phone{
+                float: left;
+                width: 24%;
+            }
+        } 
+
+        /* .phone{
             border: 2px solid black;
             height: 600px;
             width: 20%;
@@ -16,7 +39,7 @@
             margin-right: 10px;
             background-color: white;
 
-        }
+        } */
         img{
             margin-left: 45px;
         }
@@ -48,6 +71,7 @@
     </style>
 </head>
 <body>
+    <div class="row">
     <div class="phone">
      <img src="./phone1.jpg" alt="phone1" height="250px" width="200px">
      <p>yu Ace</p>
@@ -111,6 +135,7 @@
             <li>4000mAh Battery</li>
         </ul> 
         <h5>View Details</h5>  
+    </div>
     </div>
 </body>
 </html>
