@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagination, column-count</title>
+    <style>
+        .pagination a {
+            text-decoration: none;
+            color: #000;
+            padding: 10px 10px;
+            background-color: burlywood;
+            margin: 10px;
+        }
+
+        .pagination a.active {
+            background-color: cyan;
+        }
+        .newspaper{
+            column-count: 4;
+            column-gap: 20px;
+            column-rule-style: double;
+        }
+        .flex{
+            display: flex;
+            background-color: yellow;
+            flex-direction: row-reverse;
+        }
+        .flex div{
+            background-color: blue;
+            margin: 10px;
+            width: 100px;
+            text-align: center;
+            padding: 10px;
+            font-size: 20px;
+            color: white;
+            border: 1px solid green;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Css Pagination</h1>
+    <div class="pagination">
+        <a href="#">&laquo;</a>
+        <a href="#" class="active">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">6</a>
+        <a href="#">7</a>
+        <a href="#">&raquo;</a>
+    </div>
+    <h1>Multiple Column</h1>
+    <div class="newspaper">
+        As the cyclonic storm Tauktae lay centred over Saurashtra, about 45 km north-northwest of Ahmedabad on Tuesday
+        evening with an intensity of 55-65 kmph gusting to 75 kmph near the centre, the India Meteorological Department
+        (IMD) has issued an alert of heavy rainfall across Gujarat on Wednesday.
+        Heavy to very heavy rain very likely in Sabarkantha, Dang, Surat, Navsari, Valsad, Daman, Dadara & Nagar Haveli,
+        Surendranagar, Rajkot Morbi, Bhavnagar, Amreli, Junagadh, Botad, Jamnagar, Aravalli, Banaskantha, Patan,
+        Mehsana, Gandhinagar, Ahmedabad, Vadodara, Kheda and Anand, the IMD bulletin stated.
+        The cyclone would further move north-northeastwards and weaken gradually into a deep depression by Tuesday
+        night, the IMD stated.
+        The Ahmedabad regional office of IMD has issued a forecast of light to moderate thunderstorm with lightning and
+        surface wind 30- 40 kmph (in gust) accompanied with light rain at isolated places in Chhota Udepur, Narmada,
+        Tapi, Bhavnagar and Amreli on May 20 and early morning of May 21.
+    </div>
+    <h2>Flex css</h2>
+    <div class="flex">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+    </div>
+</body>
+
+</html>
