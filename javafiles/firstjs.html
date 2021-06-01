@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript</title>
+        <script>
+            var x=30;
+            var y=30;
+            function updatedemo(){
+                document.getElementById("demo").innerHTML="my first javascript is changed";
+            }
+            function add(){
+                var a=20;
+                var b=30;
+                var c=a+b;
+                // document.write(c);
+                document.getElementById("demo1").innerHTML="add the value"+c;
+            }
+            function add1(){
+                document.getElementById("demo2").innerHTML="add1 the value"+(z=x+y);
+                     }
+            function sub(){
+                document.getElementById("demo3").innerHTML="sub the value"+(z=x-y);
+            }
+            function mul(){
+                document.getElementById("demo").innerHTML="multiplication"+(z=x*y);
+            }
+            function div(){
+                document.getElementById("demo4").innerHTML="divided"+(z=x/y);
+            }
+        </script>
+    </head>
+    <body>
+        <div id="demo">Hello world</div> 
+        <input type="button" onclick="updatedemo()" value="update"/>
+        <div id="demo1"></div>
+         <input type="button" onclick="add()" value="add">
+         <br>
+         <div id="demo2"></div>
+         <input type="button" onclick="add1()" value="add">
+         <br>
+         <div id="demo3"></div>
+         <input type="button" onclick="sub()" value="sub"><br>
+         <input type="button" onclick="mul()" value="mul"><br>
+         <div id="demo4"></div>
+         <input type="button" onclick="div()" value="div">
+    </body>
+</html>

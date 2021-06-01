@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Var javascript</title>
+</head>
+<body>
+    <script>
+         var a=30;
+         var b=50;
+         var c=a+b;
+         function add(){
+             document.getElementById("demo").innerHTML="the addition of value:"+c;
+         }
+         var d=30;
+         var e=60
+         var f=d-e;
+         var g=d+e;
+         var h=d*e;
+         document.write(f);
+         console.log(g);
+         alert('alert Multiply'+h);
+         document.write("adding"+g+ "<br>");
+         document.write("multi"+h);
+         function add(){
+         document.getElementById("demo").innerHTML=c;
+         }
+    </script>
+    <div id="demo"></div>
+    <input type="button" onclick="add()" value="add">
+</body>
+</html>
