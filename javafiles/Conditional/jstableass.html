@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="no">Number</label>
+    <input type="number" id="no" value=""><br><br>  
+    <button onclick="mul()" value="mul">Multiplication</button>
+    
+ <script>
+      function mul(){
+        i=1;
+        var table=Number(document.getElementById("no").value);
+        for(i=1; i<=10; i++){
+      var z=document.write(table + "  X  " + i + "  =  " + i * table+'<br>' );
+    }  
+    document.getElementById("total").value=z;
+
+  }
+ </script>
+</body>
+</html>
