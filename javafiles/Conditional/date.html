@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date Objects</title>
+</head>
+<body>
+    <script>
+         var d=new Date()+'<br>';
+          document.write(d);
+
+        var d1=new Date();
+        document.write(d1.getFullYear());
+        document.write(d1.getMonth());
+        document.write(d1.getHours())+'<br>';
+           var d2=new Date()+'<br>';
+           document.write(d2);
+           var months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+document.getElementById("demo").innerHTML = months[d.getMonth()];
+    </script>
+</body>
+</html>
