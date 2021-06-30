@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const carDetaisl = {
+  modelName: 'BMW',
+  manfYear: 2000,
+  color: 'white',
+  autoGear: true,
+  autoGear: false,
+
+  features: {
+    wheels: 4,
+    mirrors: 2,
+    sideLights: 8,
+    BreakLights: 4,
+    Headlights: 4
+  }
+};
+//My car is BMW.
+//Manf year is 2000. it has 4 wheels and 2 mirrors.
+//I like white color.
+//It has total 16 lights(sideLights : 8 + BreakLights: 4 + Headlights: 4).
+//it does not have gear system.
+//it has auto gear system.
+
+ const {modelName,manfYear,color,autoGear,features:{wheels,mirrors,sideLights,BreakLights,Headlights}}=carDetaisl;
+//My car is BMW.
+console.log(`My car is  ${modelName}`);
+//Manf year is 2000. it has 4 wheels and 2 mirrors.
+console.log(`Manf year is ${manfYear}.it has ${wheels}wheels and ${mirrors}mirrors`);
+//I like white color.
+console.log(`I Like ${color}.`);
+//It has total 16 lights(sideLights : 8 + BreakLights: 4 + Headlights: 4).
+console.log(`It has total 16 lights(sideLights:${sideLights} +BreakLights ${BreakLights} +Headlights ${Headlights}`);
+//it does not have gear system.
+console.log(`${autoGear===false? 'it doesnot have auto gear system' :'it has autogear system'}`)
+//it has auto gear system.
+console.log(`${autoGear===true? 'it doesnot have auto gear system' :'it has autogear system'}`)
+
+</script>
+</body>
+</html>
